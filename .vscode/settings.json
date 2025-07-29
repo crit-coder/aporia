@@ -1,0 +1,22 @@
+{
+	// Run formatting on save for only .mdx files
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"match": "\\.mdx$",
+				"cmd": "npx prettier --write ${file}"
+			}
+		]
+	},
+
+	// Disable VS Code's built-in formatting for .mdx (MDX 3 is not fully supported)
+	"[mdx]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": null
+	},
+
+	// Optional: Keep files tidy
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true
+}

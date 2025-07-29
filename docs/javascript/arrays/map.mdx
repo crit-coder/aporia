@@ -1,3 +1,13 @@
+import CodeBlock from '@theme/CodeBlock';
+import mapUsersCode from '@site/docs/javascript/arrays/examples/map-examples';
+
+---
+
+id: map
+title: Array.prototype.map()
+
+---
+
 # Array.prototype.map()
 
 The `map()` method creates a new array by applying a function to each element of the original array.
@@ -18,6 +28,15 @@ The `map()` method creates a new array by applying a function to each element of
 array.map((value, index, array) => {
   // return transformed value
 });
-
 ```
 
+## Code examples
+
+<details>
+  <summary>
+    Show TypeScript Example: <code>map-examples.js</code>
+  </summary>
+  <CodeBlock language="js" title="map-examples.js">
+    {mapUsersCode}
+  </CodeBlock>
+</details>

@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Centered alert block */
+.markdown-alert {
+  background-color: rgb(247, 210, 163);
+  border-radius: 6px;
+  padding: 1rem 1rem 0.05rem 1rem;
+  margin: 0rem 0;
+}
