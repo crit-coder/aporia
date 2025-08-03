@@ -200,4 +200,5 @@ const people = [
 const userCities = people.map(person => person.address?.city || 'unknown')
 
 console.log(userCities)
+
 // Expected output: ['New York', 'unknown', 'Chicago', 'unknown']
